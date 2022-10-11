@@ -7,6 +7,7 @@ extern crate rustc_serialize;
 extern crate uuid;
 
 mod models;
+mod database;
 
 fn main() {
     
