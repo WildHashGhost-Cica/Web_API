@@ -6,3 +6,10 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+iron = "0.6.1"
+router = "0.6.0"
+logger = "0.4.0"
+env_logger = "0.9.1"
+rustc-serialize = "0.3.24"
+chrono = { version = "0.4.22", features = ["rustc-serialize"]}
+uuid = { version = "1.2.1", features = ["v", "rustc-serialize"]}
